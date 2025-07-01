@@ -1,0 +1,15 @@
+# Use LF for all Python scripts
+*.py text eol=lf
+
+# Windows-style for batch scripts
+*.bat text eol=crlf
+
+# Binary files — keep untouched
+*.png binary
+*.jpg binary
+*.whl binary
+*.dll binary
+
+# Ignore venv folder when exporting
+venv/ export-ignore
+venv39/ export-ignore
